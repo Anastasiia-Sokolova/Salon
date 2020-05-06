@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Salon.Admin"
         mc:Ignorable="d"
         Title="addSession" Height="425.602" Width="730.874">
-    <Grid>
+    <Grid Background="#FF474747">
         <Grid.RowDefinitions>
             <RowDefinition Height="16*"/>
             <RowDefinition Height="25*"/>
@@ -32,8 +32,8 @@
         <Label x:Name="namelabel" Content="Name" FontSize="14" Grid.Row="2" Grid.Column="1"/>
         <Label x:Name="surnameLabel" Content="Surname" FontSize="14" Grid.Row="3" Grid.Column="1"/>
         <Label x:Name="phoneLabel" Content="Phone" FontSize="14" Grid.Row="4" Grid.Column="1"/>
-        <Button Content="add" Grid.Column="4" Grid.Row="5" Click="Button_Click"/>
-        <ComboBox x:Name="masterCB" Grid.Column="5" Grid.Row="1"/>
+        <Button Content="add" Grid.Column="4" Grid.Row="5" Click="Button_Click" Background="#FFFFE800"/>
+        <ComboBox x:Name="masterCB" Grid.Column="5" Grid.Row="1" Background="#FFFFE800" BorderBrush="{x:Null}"/>
         <Label Content="Master" FontSize="14" Grid.Column="4" Grid.Row="1" />
         <DatePicker x:Name="dataPicker" Grid.Column="5" Grid.Row="3"/>
     </Grid>
