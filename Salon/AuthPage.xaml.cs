@@ -59,11 +59,11 @@ namespace Salon
 
                     switch (user.Position)
                     {
-                        case "Master":
+                        case "Master3":
                             Master.MasterPage masterPage = new Master.MasterPage();
                             this.NavigationService.Navigate(masterPage);
                             break;
-                        case "Admin":
+                        case "Admin3":
                             Admin.AdminPage adminPage = new Admin.AdminPage();
                             this.NavigationService.Navigate(adminPage);
                             break;
