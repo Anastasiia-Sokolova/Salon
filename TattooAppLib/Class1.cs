@@ -16,7 +16,7 @@ namespace TattooAppLib
             string b = y;
             if (string.IsNullOrEmpty(a) || string.IsNullOrEmpty(b))
             {
-                s = "Submit all fields please";
+                s = "Submit all fields";
             }
             return s;
         }
