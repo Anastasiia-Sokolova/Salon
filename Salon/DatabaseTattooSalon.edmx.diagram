@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bb2552788d7c43e49e01e0906c3c2035" Name="Diagram1">
+        <EntityTypeShape EntityType="Tattoo_Studio_2Model.Client" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tattoo_Studio_2Model.Portfolio" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tattoo_Studio_2Model.Price_list" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tattoo_Studio_2Model.Schedule" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tattoo_Studio_2Model.Service" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tattoo_Studio_2Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tattoo_Studio_2Model.User" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="Tattoo_Studio_2Model.FK_Schedule_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="Tattoo_Studio_2Model.FK_Portfolio_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Tattoo_Studio_2Model.FK_Price_list_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="Tattoo_Studio_2Model.FK_Price_list_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Tattoo_Studio_2Model.FK_Schedule_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

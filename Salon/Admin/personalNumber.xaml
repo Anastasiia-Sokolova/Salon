@@ -1,0 +1,38 @@
+﻿<Page x:Class="Salon.Admin.personalNumber"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Salon.Admin"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="personalNumber">
+
+    <Grid Background="#FF2E323B">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="34*"/>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="16*"/>
+            <RowDefinition Height="51*"/>
+            <RowDefinition Height="71*"/>
+            <RowDefinition Height="29*"/>
+            <RowDefinition Height="112*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="171*"/>
+            <ColumnDefinition Width="138*"/>
+            <ColumnDefinition Width="209*"/>
+            <ColumnDefinition Width="282*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="surnametb" Grid.Column="2" Grid.Row="1" />
+        <Label Content="Surname" Grid.Column="1" Grid.Row="1" Foreground="#FFAAB1B9" FontSize="14"/>
+        <TextBox x:Name="birthyeartb" Grid.Column="2" Grid.Row="3"/>
+        <Label Content="Birth year" Grid.Column="1" Grid.Row="3" Foreground="#FFAAB1B9" FontSize="14"/>
+        <Button x:Name="getnumbtn" Content="Get a number" Grid.Column="2" Grid.Row="5" FontSize="14" FontWeight="Bold" Background="#FFFEEA53" Click="Button_Click"/>
+        <Label Content="Result" Grid.Column="1" Grid.Row="7" Foreground="#FFAAB1B9" FontSize="14"/>
+        <TextBlock x:Name="resulttb" Grid.Column="2" Grid.Row="7" Foreground="White" Text="тут будет результат"/>
+
+    </Grid>
+</Page>
